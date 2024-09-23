@@ -26,7 +26,7 @@ const Search = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = value => {
-    setSearchQuery(value); // Arama sorgusunu güncelle
+    setSearchQuery(value);
     if (value && value.trim().length > 2) {
       setLoading(true);
       fetchSearchMovies({
@@ -85,8 +85,8 @@ const Search = () => {
                     }}
                   />
                   <Text className="text-neutral-300 ml-1">
-                    {item.title.length > 27
-                      ? item.title.slice(0, 27) + '...'
+                    {item.title.length > 23
+                      ? item.title.slice(0, 23) + '...'
                       : item.title}
                   </Text>
                 </View>

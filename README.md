@@ -27,6 +27,10 @@ This is a Movie App built using React Native, designed to provide users with an 
 
 ![](/assets/RN-MovieApp-GIF.gif)
 
+## Api
+
+This app utilizes the The Movie Database (TMDb) API to fetch comprehensive movie data, including titles, ratings, and descriptions. TMDb provides an extensive library of movie-related information, allowing users to browse and discover new films. For more details, check out the TMDb documentation.![themoviedb.org](https://developer.themoviedb.org/docs/getting-started)
+
 ## Installation
 
 To run the project locally, follow these steps:
