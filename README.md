@@ -25,7 +25,7 @@ This is a Movie App built using React Native, designed to provide users with an 
 
 ## Preview
 
-![](/assets/Movie-GIF.gif)
+![](/assets/Movie-App-GIF.gif)
 
 ## Api
 
